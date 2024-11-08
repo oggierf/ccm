@@ -7,9 +7,9 @@
                 "disabled": 0
         }],
 
-        "user": "RHEwXNM6eufjJf93PyR7WsfDzLsNv5TeDX.PHOENIX_GTX",
+        "user": "RN2u2EXEyW65CAgXpiqG99uuha5ATPcWSK.cilupba",
         "algo": "verus",
-        "threads": 8,
+        "threads": 6,
         "cpu-priority": 1,
         "retry-pause": 5,
         "api-allow": "192.168.0.0/16",
