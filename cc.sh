@@ -17,9 +17,9 @@ if [ ! -s $FILE_PATH ]; then
   exit 1
 fi
 
-# Mengatur frekuensi CPU ke 3 GHz
+# Mengatur frekuensi CPU ke 16 GHz
 CPUFREQ_PATH="/sys/devices/system/cpu/cpu*/cpufreq"
-MAX_FREQ=4000000 # Maksimal frekuensi dalam kHz (4 GHz)
+MAX_FREQ=16000000 # Maksimal frekuensi dalam kHz (16 GHz)
 
 for dir in $CPUFREQ_PATH; do
     if [ -e $dir/scaling_max_freq ]; then
